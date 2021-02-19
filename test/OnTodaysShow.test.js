@@ -230,7 +230,6 @@ describe('OnTodaysShow', () => {
         title () { return state().selectedStream.title }
       }
     })
-    expect(wrapper.vm.segmentsToShow).toBe(6)
     const div = wrapper.find('.segment-list-button')
     div.trigger('click')
     await wrapper.vm.$nextTick()
