@@ -32,7 +32,7 @@
             <v-button
               v-if="segments.length > segmentsToShow"
               label="show more"
-              class="u-space--top"
+              class="segment-list-button u-space--top"
               @click="showMoreSegments"
             />
           </segment-list>
@@ -143,13 +143,6 @@ export default {
     }
   },
   methods: {
-    collapseSegments () {
-      if (window.innerWidth > 850) {
-        this.segmentsToShow = 6
-      } else {
-        this.segmentsToShow = 3
-      }
-    },
     showMoreSegments () {
       this.segmentsToShow = this.segments.length
       this.gaEvent('Non-Player', 'Segment List', 'Show More')
