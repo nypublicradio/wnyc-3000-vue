@@ -22,6 +22,10 @@ $ npm run generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
+## Node Version
+
+This project was built using v14.17.0
+
 ## Running in Docker
 To run this app in a production-like setup, use docker.
 The basic dev container can be run with the following commands:
