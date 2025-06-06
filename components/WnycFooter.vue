@@ -25,11 +25,11 @@
         </a>
       </div>
     </template>
-    <template v-slot:rightComponent>
+    <!--template v-slot:rightComponent>
       <div>
         <v-button label="Send Us Your Feedback" rel="noopener" href="https://www.surveymonkey.com/r/LGP2Z96" target="_blank" />
       </div>
-    </template>
+    </template-->
     <template v-slot:social>
       <div>
         <share-tools label="Connect">
